@@ -6,7 +6,9 @@ const Product = ({ product }) => {
     <Card
       className="my-3 p-3 rounded"
       style={{
+        display: "flex",
         border: "solid",
+        width: "100%",
         /* backgroundColor: "#F5F5DC" */
       }}
     >

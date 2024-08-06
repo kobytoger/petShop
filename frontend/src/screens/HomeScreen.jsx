@@ -41,8 +41,10 @@ const HomeScreen = () => {
       <h1 className="text-center">Welcome to Kobe's pet shop</h1>
       <Image
         className="mb-5 mt-3 rounded mx-auto d-block wd-5"
-        width="65%"
-        src="https://t4.ftcdn.net/jpg/06/28/92/41/360_F_628924186_fjHVPXo8ypuQ6nVd1pi8t1IyOXhfzmDy.jpg"
+        width="75%"
+        height="550px"
+        style={{ border: "solid black" }}
+        src="https://cangurunews.com.br/wp-content/uploads/2021/04/secret-life-of-pets.jpg"
       ></Image>
 
       {!keyword && (
@@ -56,14 +58,15 @@ const HomeScreen = () => {
               alignItems: "center",
               justifyContent: "space-between",
               textAlign: "center",
+              marginBottom: "30px",
             }}
           >
             <Link to="/category/cats" className="mb-4">
               <Image
                 style={{
                   margin: "5px 15px",
-                  width: "280px",
-                  height: "250px",
+                  width: "480px",
+                  height: "450px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/cats.jpg"}
@@ -74,8 +77,8 @@ const HomeScreen = () => {
               <Image
                 style={{
                   margin: "5px 15px",
-                  width: "280px",
-                  height: "250px",
+                  width: "480px",
+                  height: "450px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/dogs.jpg"}
@@ -86,8 +89,8 @@ const HomeScreen = () => {
               <Image
                 style={{
                   margin: "5px 15px",
-                  width: "280px",
-                  height: "250px",
+                  width: "480px",
+                  height: "450px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/fishes.jpeg"}
@@ -98,8 +101,8 @@ const HomeScreen = () => {
               <Image
                 style={{
                   margin: "5px 15px",
-                  width: "280px",
-                  height: "250px",
+                  width: "480px",
+                  height: "450px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/birds.jpg"}
