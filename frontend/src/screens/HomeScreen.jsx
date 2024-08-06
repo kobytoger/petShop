@@ -42,7 +42,6 @@ const HomeScreen = () => {
       <Image
         className="mb-5 mt-3 rounded mx-auto d-block wd-5"
         width="75%"
-        height="550px"
         style={{ border: "solid black" }}
         src="https://cangurunews.com.br/wp-content/uploads/2021/04/secret-life-of-pets.jpg"
       ></Image>
