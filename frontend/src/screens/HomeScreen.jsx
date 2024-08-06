@@ -61,8 +61,8 @@ const HomeScreen = () => {
             <Link to="/category/cats" className="mb-4">
               <Image
                 style={{
-                  margin: "0 30px",
-                  width: "250px",
+                  margin: "5px 15px",
+                  width: "280px",
                   height: "250px",
                   border: " black solid",
                 }}
@@ -73,8 +73,8 @@ const HomeScreen = () => {
             <Link to="/category/dogs" className="mb-4">
               <Image
                 style={{
-                  margin: "0 30px",
-                  width: "250px",
+                  margin: "5px 15px",
+                  width: "280px",
                   height: "250px",
                   border: " black solid",
                 }}
@@ -85,8 +85,8 @@ const HomeScreen = () => {
             <Link to="/category/fishes" className="mb-4">
               <Image
                 style={{
-                  margin: "0 30px",
-                  width: "250px",
+                  margin: "5px 15px",
+                  width: "280px",
                   height: "250px",
                   border: " black solid",
                 }}
@@ -97,8 +97,8 @@ const HomeScreen = () => {
             <Link to="/category/birds" className="mb-4">
               <Image
                 style={{
-                  margin: "0 30px",
-                  width: "250px",
+                  margin: "5px 15px",
+                  width: "280px",
                   height: "250px",
                   border: " black solid",
                 }}

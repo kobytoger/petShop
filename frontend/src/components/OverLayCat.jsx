@@ -19,6 +19,7 @@ const OverLayCat = ({ popover, srcUrl }) => {
             position: "fixed",
             bottom: "0",
             left: "0",
+            zIndex: "1",
           }}
           src={srcUrl}
           alt="cat"
