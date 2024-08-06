@@ -29,6 +29,13 @@ const HomeScreen = () => {
     </Popover>
   );
 
+  const categoryStyles = {
+    margin: "5px",
+    width: "40%",
+    height: "30vh",
+    border: " black solid",
+  };
+
   return (
     <>
       <OverLayCat
@@ -62,48 +69,28 @@ const HomeScreen = () => {
           >
             <Link to="/category/cats" className="mb-4">
               <Image
-                style={{
-                  margin: "5px 15px",
-                  width: "480px",
-                  height: "450px",
-                  border: " black solid",
-                }}
+                style={categoryStyles}
                 src={process.env.PUBLIC_URL + "/images/cats.jpg"}
                 alt="cats"
               ></Image>
             </Link>
             <Link to="/category/dogs" className="mb-4">
               <Image
-                style={{
-                  margin: "5px 15px",
-                  width: "480px",
-                  height: "450px",
-                  border: " black solid",
-                }}
+                style={categoryStyles}
                 src={process.env.PUBLIC_URL + "/images/dogs.jpg"}
                 alt="dogs"
               ></Image>
             </Link>
             <Link to="/category/fishes" className="mb-4">
               <Image
-                style={{
-                  margin: "5px 15px",
-                  width: "480px",
-                  height: "450px",
-                  border: " black solid",
-                }}
+                style={categoryStyles}
                 src={process.env.PUBLIC_URL + "/images/fishes.jpeg"}
                 alt="fishes"
               />
             </Link>
             <Link to="/category/birds" className="mb-4">
               <Image
-                style={{
-                  margin: "5px 15px",
-                  width: "480px",
-                  height: "450px",
-                  border: " black solid",
-                }}
+                style={categoryStyles}
                 src={process.env.PUBLIC_URL + "/images/birds.jpg"}
                 alt="birds"
               />
