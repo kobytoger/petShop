@@ -51,13 +51,19 @@ const HomeScreen = () => {
           <ProductCarousel />
           <h1 className="text-center">Categories</h1>
           <Container
-            style={{ display: "flex", justifyContent: "space-between" }}
+            style={{
+              display: "flex-box",
+              alignItems: "center",
+              justifyContent: "space-between",
+              textAlign: "center",
+            }}
           >
             <Link to="/category/cats" className="mb-4">
               <Image
                 style={{
+                  margin: "0 30px",
                   width: "250px",
-                  height: "100%",
+                  height: "250px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/cats.jpg"}
@@ -67,8 +73,9 @@ const HomeScreen = () => {
             <Link to="/category/dogs" className="mb-4">
               <Image
                 style={{
+                  margin: "0 30px",
                   width: "250px",
-                  height: "100%",
+                  height: "250px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/dogs.jpg"}
@@ -78,8 +85,9 @@ const HomeScreen = () => {
             <Link to="/category/fishes" className="mb-4">
               <Image
                 style={{
+                  margin: "0 30px",
                   width: "250px",
-                  height: "100%",
+                  height: "250px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/fishes.jpeg"}
@@ -89,8 +97,9 @@ const HomeScreen = () => {
             <Link to="/category/birds" className="mb-4">
               <Image
                 style={{
+                  margin: "0 30px",
                   width: "250px",
-                  height: "100%",
+                  height: "250px",
                   border: " black solid",
                 }}
                 src={process.env.PUBLIC_URL + "/images/birds.jpg"}
