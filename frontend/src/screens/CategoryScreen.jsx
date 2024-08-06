@@ -45,7 +45,12 @@ const CategoryScreen = () => {
       ) : (
         <>
           <Meta />
-          <h1 className="text-center">Cats Products</h1>
+          <h1 className="text-center">{`${
+            categoryName.charAt(0).toUpperCase() + categoryName.slice(1)
+          } Products`}</h1>
+          <Link to="/" className="btn btn-light mb-4">
+            Go Back
+          </Link>
           <Row>
             {data.products.map((product) => (
               <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
