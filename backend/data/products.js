@@ -1,0 +1,98 @@
+const products = [
+  {
+    name: "Hills a/d dry for cats",
+    image: "/images/caninea_dcan.png",
+    description: "...",
+    brand: "Hills",
+    category: "cats",
+    price: 9.99,
+    countInStock: 6,
+    rating: 5,
+    numReviews: 121,
+  },
+  {
+    name: "Applaws Cat Food 70g - Tuna / Fish",
+    image: "/images/pla_applaws.jpg",
+    description:
+      "Applaws uses only the highest quality, human-grade ingredients, giving your cat a true taste experience. Only 100% natural ingredients of the highest quality, including 75% meat or fish, are used for Applaws wet cat food.",
+    brand: "hills",
+    category: "cats",
+    price: 13.99,
+    countInStock: 10,
+    rating: 4.8,
+    numReviews: 152,
+  },
+  {
+    name: "Gourmet Gold Pâté Recipes Saver Pack 24 x 85g",
+    image: "/images/nestle_sparpaket_gourmet.jpg",
+    description:
+      "Your cat deserves more than ordinary cat food. Now you can indulge your cat with Gourmet Gold Pâté, a delicious pâté made to a unique recipe, using top-quality ingredients. Even the most choosy cat will enjoy the different varieties of Gourmet Gold Pâté. Your pet will be provided with all the nutrients needed for a balanced and healthy diet. Gourmet Gold Pâté provides a selection of different, delicate recipes and offers something for every palate.",
+    brand: "hills",
+    category: "cats",
+    price: 17.29,
+    countInStock: 12,
+    rating: 4.1,
+    numReviews: 133,
+  },
+  {
+    name: "Cat's Best Original Cat litter",
+    image: "/images/pla_catsbest_original.jpg",
+    description:
+      "Cat's Best Original Cat Litter is the first cat litter that combines nature and high-tech developments. Technologically refined active wood fibres absorb moisture and odours, being stored deep inside. It is entirely natural and free from chemical additives. This allows Cat's Best Original Cat Litter to last longer, up to 7 weeks, in your cat's litter tray. This helps to reduce the amount of work you need to do to keep your cat's litter tray clean and full, as well as reducing costs. Cat's Best Original Cat Litter works best when you remove any solid waste and clumps regularly, disposing of them in the compost or your household toilet (although be sure to check with your local waste disposal before doing so).",
+    brand: "hills",
+    category: "cats",
+    price: 39.99,
+    countInStock: 8,
+    rating: 4.9,
+    numReviews: 12,
+  },
+  {
+    name: "Rocco Classic Saver Pack 24 x 800g",
+    image: "/images/pla_megapack_rocco_classic.jpg",
+    description:
+      "Rocco Classic is a complete wet food, made with fresh high-quality meat and offal. All ingredients are 100% fresh and the meat content is at least 70%. It has been carefully prepared so as to retain its delicious hearty taste and texture. Rocco Classic is a species-appropriate meal for the meat-loving dog.Rocco is guaranteed not to contain formed meat and to be made using only fresh meat. It does not contain animal meal (e.g. bone meal), vegetable protein (e.g. soya) or other fillers. It does not contain pork.Rocco is made of at least 50% beef. The other 20% of meat is only from the animal listed in the ingredients. Guaranteed! Rocco is only made using fresh meat of the highest quality and forgoes all chemical additives such as flavour enhancers, artificial colour, and artificial preservatives. The especially gentle cooking process preserves Rocco's healthy nutrients and strong meat flavour. Rocco wet food is both gluten and grain-free.",
+    brand: "hills",
+    category: "dogs",
+    price: 64.99,
+    countInStock: 5,
+    rating: 3.6,
+    numReviews: 11,
+  },
+  {
+    name: "Rocco Rolls Chew Sticks",
+    image: "/images/pla_rocco_rolls_chicken.jpg",
+    description: "...",
+    brand: "hills",
+    category: "dogs",
+    price: 3.79,
+    countInStock: 1,
+    rating: 4.5,
+    numReviews: 156,
+  },
+  {
+    name: "Miamor Cat Snack Multi-Vitamin Cream",
+    image: "/images/pla_miamor_catsnack_multivitamin_.jpg",
+    description:
+      "Miamor Cat Snack Multi-Vitamin Cream is a supplementary food for cats which can help to improve the immune system. Important vitamins, trace elements and taurine aid your cat’s immune system and strengthen your pet’s natural resistance. Made to a special recipe, it ensures your cat has all the nutrients it needs for a happy healthy life.",
+    brand: "hills",
+    category: "cats",
+    price: 2.29,
+    countInStock: 2,
+    rating: 4.4,
+    numReviews: 122,
+  },
+  {
+    name: "Vitakraft Mini Cat Sticks - 6 x 6g",
+    image: "/images/pla_vitakraft_cat_stick_lachs_msc_7.jpg",
+    description:
+      "Whether you’re looking for a light snack or a little reward for your cat, Vitakraft Mini Cat Sticks will make your pet’s day. These tasty, savoury treats are sugar-free, and don’t contain any artificial colourings or flavour enhancers, so you can rest assured that you’re giving your cat a healthy snack. Each stick is packed full of fish (80%) or meat (95%), so they smell and taste great.",
+    brand: "hills",
+    category: "cats",
+    price: 2.99,
+    countInStock: 0,
+    rating: 4.8,
+    numReviews: 17,
+  },
+];
+
+export default products;
