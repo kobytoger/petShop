@@ -30,8 +30,9 @@ const HomeScreen = () => {
   );
 
   const categoryStyles = {
-    margin: "5px",
-    width: "45%",
+    margin: "25px",
+    width: "50%",
+    maxWidth: "450px",
     height: "27vh",
     border: " black solid",
   };
